@@ -28,11 +28,9 @@ public class MonteCarloPi {
         startTime = System.nanoTime();
         double piWithThreads = estimatePiWithThreads(NUM_POINTS, NUM_THREADS);
         endTime = System.nanoTime();
-        System.out.println("Monte Carlo Pi Approximation (multi‑threaded): " + piWithThreads);
-        System.out.println("Time taken (multi‑threaded): " + (endTime - startTime) / 1_000_000 + " ms\n");
+        System.out.println("Monte Carlo Pi Approximation (multi-threaded): " + piWithThreads);
+        System.out.println("Time taken (multi-threaded): " + (endTime - startTime) / 1_000_000 + " ms\n");
 
-        // TODO: After completing the implementation, reflect on the questions in the description of this task in the README file
-        //       and include your answers in your report file.
     }
 
     /**
